@@ -40,7 +40,8 @@ Built by ${answers.github}
 Send an email to ${answers.email} to learn more!`;
 
 //using inquirer to prompt user
-inquirer([
+inquirer
+    .prompt([
         {
         type: "input",
         name: "githubname",
