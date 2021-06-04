@@ -2,7 +2,33 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = (answers) =>
-      `<!`;
+`# ${answers.name}
+
+# Built by ${answers.githubname}
+
+#Table of Contents:
+
+
+# Description
+ ${answers.description}
+
+# Usage
+ ${answers.usage}
+
+# Installation Requirements
+ ${answers.installation}
+
+# Contributing
+${answers.contributing}
+
+# Tests
+${answers.tests}
+
+# License
+
+
+# Contact Information
+Send an email to ${answers.email} to learn more!`;
 
 inquirer([
         {
@@ -14,6 +40,11 @@ inquirer([
         type: "input",
         name: "name",
         message: "What is the name of the repository?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What email can you be contacted by?",
     },
     {
         type: "input",
@@ -42,11 +73,11 @@ inquirer([
     },
     ])
       .then((answers) => {
-        const htmlPageContent = generateHTML(answers);
+        const readMeContent = generateHTML(answers);
 
-        fs.writeFile("index.html", htmlPageContent, (err) =>
+        fs.writeFile("ReadMe", readMeContent, (err) =>
           err
             ? console.log(err)
-            : console.log("Successfully created index.html!")
+            : console.log("Successfully created a good ReadMe!")
         );
       });
