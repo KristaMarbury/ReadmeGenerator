@@ -1,13 +1,20 @@
-// TODO: Include packages needed for this application
+//packages required below
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = (answers) =>
-`# ${answers.name}
 
-# Built by ${answers.githubname}
+//generateReadMe 
+const generateReadMe = (answers) =>
+  `*${answers.licenseBadge}
+  
+# ${answers.name}
 
 #Table of Contents:
-
+<a href="">Description<a>
+<a href="">Usage<a>
+<a href="">Installation<a>
+<a href="">Contributing<a>
+<a href="">Tests<a>
+<a href="">Questions<a>
 
 # Description
  ${answers.description}
@@ -25,11 +32,14 @@ ${answers.contributing}
 ${answers.tests}
 
 # License
+${answers.licenseLink}
+${answers.licenseSection}
 
-
-# Contact Information
+# Questions
+Built by ${answers.github}
 Send an email to ${answers.email} to learn more!`;
 
+//using inquirer to prompt user
 inquirer([
         {
         type: "input",
@@ -72,8 +82,9 @@ inquirer([
         message: "What are the test instructions?",
     },
     ])
-      .then((answers) => {
-        const readMeContent = generateHTML(answers);
+    .then((answers) => {
+        //taking the input and pushing it to the document
+        const readMeContent = generateReadMe(answers);
 
         fs.writeFile("ReadMe", readMeContent, (err) =>
           err
