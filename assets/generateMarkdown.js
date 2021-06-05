@@ -44,7 +44,7 @@ ${answers.contributing}
 ${answers.tests}
 
 ## License
-${renderLicenseLink(answers.license)}
+${renderLicenseBadge(answers.license)}
 
 ## Questions
 Built by ${answers.github}

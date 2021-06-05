@@ -1,5 +1,5 @@
 
-  ![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 # gleebek
 
@@ -30,9 +30,7 @@ nah..
 pray
 
 ## License
-
-* [License](#license)
-
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Questions
 Built by undefined
