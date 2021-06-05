@@ -1,5 +1,5 @@
-# gleebek
-  *Share Alike
+
+  *![GitHub license](https://img.shields.io/badge/license-Apache 2.0-blue.svg)
   
 # gleebek
 
@@ -7,9 +7,7 @@
 *[Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-
 * [License](#license)
-
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -28,6 +26,12 @@ nah..
 
 ## Tests
 pray
+
+##License
+
+* [License](#license)
+
+*![GitHub license](https://img.shields.io/badge/license-Apache 2.0-blue.svg)
 
 ## Questions
 Built by undefined
