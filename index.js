@@ -1,44 +1,7 @@
 //packages required below
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./assets/generateMarkdown")
-
-//generateReadMe 
-const generateReadMe = (answers) =>
-  `*${answers.license}
-  
-# ${answers.name}
-
-## Table of Contents:
-*[Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-${renderLicenseLink(data.license)}
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
-
-## Description
- ${answers.description}
-
-## Usage
- ${answers.usage}
-
-## Installation Requirements
- ${answers.installation}
-
-## Contributing
-${answers.contributing}
-
-## Tests
-${answers.tests}
-
-## License
-${answers.licenselink}
-
-## Questions
-Built by ${answers.github}
-Send an email to ${answers.email} to learn more!`;
+const generateMarkdown = require("./assets/generateMarkdown");
 
 //using inquirer to prompt user
 inquirer
@@ -100,7 +63,7 @@ inquirer
   ])
   .then((answers) => {
     //taking the input and pushing it to the document
-    const readMeContent = generateReadMe(answers);
+    const readMeContent = generateMarkdown(answers);
 
     fs.writeFile("ReadMe.MD", readMeContent, (err) =>
       err
