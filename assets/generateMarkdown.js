@@ -20,7 +20,7 @@ function generateMarkdown(answers) {
 # ${answers.name}
 
 ## Table of Contents:
-*[Description](#description)
+* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)

@@ -1,10 +1,10 @@
 
-  ![GitHub license](https://img.shields.io/badge/license-Share Alike-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 # gleebek
 
 ## Table of Contents:
-*[Description](#description)
+* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -31,7 +31,7 @@ pray
 
 * [License](#license)
 
-![GitHub license](https://img.shields.io/badge/license-Share Alike-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Questions
 Built by undefined
