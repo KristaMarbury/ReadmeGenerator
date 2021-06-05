@@ -1,10 +1,11 @@
 //packages required below
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./assets/generateMarkdown")
 
 //generateReadMe 
 const generateReadMe = (answers) =>
-  `*${answers.licenseBadge}
+  `*${answers.license}
   
 # ${answers.name}
 
@@ -33,8 +34,7 @@ ${answers.contributing}
 ${answers.tests}
 
 ## License
-${answers.licenseLink}
-${answers.licenseSection}
+${answers.licenselink}
 
 ## Questions
 Built by ${answers.github}
@@ -90,6 +90,12 @@ inquirer
       name: "tests",
       message: "What are the test instructions?",
       default: "pray",
+    },
+    {
+      type: "list",
+      name: "license",
+      message: "What license do you want?",
+      choices: ["Artistic 2.0", "MIT", "Share Alike", "Apache 2.0", "none"],
     },
   ])
   .then((answers) => {
