@@ -1,5 +1,5 @@
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  
   
 # gleebek
 
@@ -7,8 +7,6 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-
-* [License](#license)
 
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -29,8 +27,8 @@ nah..
 ## Tests
 pray
 
-## License
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
 
 ## Questions
 Built by undefined
