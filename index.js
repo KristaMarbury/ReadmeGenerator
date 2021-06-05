@@ -42,55 +42,63 @@ Send an email to ${answers.email} to learn more!`;
 
 //using inquirer to prompt user
 inquirer
-    .prompt([
-        {
-        type: "input",
-        name: "githubname",
-        message: "What is your github username?",
+  .prompt([
+    {
+      type: "input",
+      name: "githubname",
+      message: "What is your github username?",
+      default: "me",
     },
     {
-        type: "input",
-        name: "name",
-        message: "What is the name of the repository?",
+      type: "input",
+      name: "name",
+      message: "What is the name of the repository?",
+      default: "gleebek",
     },
     {
-        type: "input",
-        name: "email",
-        message: "What email can you be contacted by?",
+      type: "input",
+      name: "email",
+      message: "What email can you be contacted by?",
+      default: "zibble@yikes.com",
     },
     {
-        type: "input",
-        name: "description",
-        message: "What is the goal of this site?",
+      type: "input",
+      name: "description",
+      message: "What is the goal of this site?",
+      default: "maintain a straight face",
     },
     {
-        type: "input",
-        name: "installation",
-        message: "How will other devs download this?",
+      type: "input",
+      name: "installation",
+      message: "How will other devs download this?",
+      default: "not easily!",
     },
     {
-        type: "input",
-        name: "usage",
-        message: "How will people use this?",
+      type: "input",
+      name: "usage",
+      message: "How will people use this?",
+      default: "carefully",
     },
     {
-        type: "input",
-        name: "contributing",
-        message: "What are the guidelines for dev contribution?",
+      type: "input",
+      name: "contributing",
+      message: "What are the guidelines for dev contribution?",
+      default: "nah..",
     },
     {
-        type: "input",
-        name: "tests",
-        message: "What are the test instructions?",
+      type: "input",
+      name: "tests",
+      message: "What are the test instructions?",
+      default: "pray",
     },
-    ])
-    .then((answers) => {
-        //taking the input and pushing it to the document
-        const readMeContent = generateReadMe(answers);
+  ])
+  .then((answers) => {
+    //taking the input and pushing it to the document
+    const readMeContent = generateReadMe(answers);
 
-        fs.writeFile("ReadMe.MD", readMeContent, (err) =>
-          err
-            ? console.log(err)
-            : console.log("Successfully created a good ReadMe!")
-        );
-      });
+    fs.writeFile("ReadMe.MD", readMeContent, (err) =>
+      err
+        ? console.log(err)
+        : console.log("Successfully created a good ReadMe!")
+    );
+  });
