@@ -87,7 +87,7 @@ inquirer
         //taking the input and pushing it to the document
         const readMeContent = generateReadMe(answers);
 
-        fs.writeFile("ReadMe", readMeContent, (err) =>
+        fs.writeFile("ReadMe.MD", readMeContent, (err) =>
           err
             ? console.log(err)
             : console.log("Successfully created a good ReadMe!")
