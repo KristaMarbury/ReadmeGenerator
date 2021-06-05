@@ -58,7 +58,7 @@ inquirer
       type: "list",
       name: "license",
       message: "What license do you want?",
-      choices: ["Artistic 2.0", "MIT", "Share Alike", "Apache 2.0", "none"],
+      choices: ["Artistic%202.0", "MIT", "Apache%202.0", "none"],
     },
   ])
   .then((answers) => {
