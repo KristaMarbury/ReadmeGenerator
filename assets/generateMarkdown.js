@@ -15,7 +15,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-  *${renderLicenseBadge(answers.license)}
+  ${renderLicenseBadge(answers.license)}
   
 # ${answers.name}
 
@@ -43,9 +43,9 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 
-##License
+## License
 ${renderLicenseLink(answers.license)}
-*${renderLicenseBadge(answers.license)}
+${renderLicenseBadge(answers.license)}
 
 ## Questions
 Built by ${answers.github}

@@ -1,5 +1,5 @@
 
-  *![GitHub license](https://img.shields.io/badge/license-Apache 2.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-Share Alike-blue.svg)
   
 # gleebek
 
@@ -27,11 +27,11 @@ nah..
 ## Tests
 pray
 
-##License
+## License
 
 * [License](#license)
 
-*![GitHub license](https://img.shields.io/badge/license-Apache 2.0-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-Share Alike-blue.svg)
 
 ## Questions
 Built by undefined
