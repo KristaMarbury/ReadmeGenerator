@@ -23,7 +23,7 @@ function generateMarkdown(answers) {
 *[Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-${renderLicenseLink(data.license)}
+${renderLicenseLink(answers.license)}
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
