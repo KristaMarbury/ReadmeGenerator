@@ -8,34 +8,35 @@ const generateReadMe = (answers) =>
   
 # ${answers.name}
 
-#Table of Contents:
-<a href="">Description<a>
-<a href="">Usage<a>
-<a href="">Installation<a>
-<a href="">Contributing<a>
-<a href="">Tests<a>
-<a href="">Questions<a>
+## Table of Contents:
+*[Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+${renderLicenseLink(data.license)}
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-# Description
+## Description
  ${answers.description}
 
-# Usage
+## Usage
  ${answers.usage}
 
-# Installation Requirements
+## Installation Requirements
  ${answers.installation}
 
-# Contributing
+## Contributing
 ${answers.contributing}
 
-# Tests
+## Tests
 ${answers.tests}
 
-# License
+## License
 ${answers.licenseLink}
 ${answers.licenseSection}
 
-# Questions
+## Questions
 Built by ${answers.github}
 Send an email to ${answers.email} to learn more!`;
 
