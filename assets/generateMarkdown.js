@@ -42,7 +42,7 @@ ${renderLicenseLink(answers.license)}
 ## Usage
  ${answers.usage}
 
-## Installation Requirements
+## Installation
  ${answers.installation}
 
 ## Contributing
