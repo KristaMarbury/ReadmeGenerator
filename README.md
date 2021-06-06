@@ -1,5 +1,5 @@
 
-  ![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 # readmegenerator
 
@@ -20,7 +20,7 @@
 ## Usage
  depends on the person
 
-## Installation Requirements
+## Installation
  fork this and then try it out in the terminal
 
 ## Contributing
@@ -30,8 +30,8 @@ think of me kindly devs!
 send good vibes
 
 ## License
-This project is licensed under the Apache%202.0 license.
-![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+This project is licensed under the MIT license.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Questions
 Built by undefined
