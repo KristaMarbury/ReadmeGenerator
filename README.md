@@ -1,7 +1,7 @@
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
-# gleebek
+# readmegenerator
 
 ## Table of Contents:
 * [Description](#description)
@@ -15,19 +15,19 @@
 * [Questions](#questions)
 
 ## Description
- maintain a straight face
+ generate a reliable readme
 
 ## Usage
- carefully
+ depends on the person
 
 ## Installation Requirements
- not easily!
+ fork this and then try it out in the terminal
 
 ## Contributing
-nah..
+think of me kindly devs!
 
 ## Tests
-pray
+send good vibes
 
 ## License
 This project is licensed under the MIT license.
@@ -35,4 +35,4 @@ This project is licensed under the MIT license.
 
 ## Questions
 Built by undefined
-Send an email to zibble@yikes.com to learn more!
+Send an email to laetaiustus@gmail.com to learn more!
